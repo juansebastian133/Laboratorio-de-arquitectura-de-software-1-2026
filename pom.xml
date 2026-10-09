@@ -23,6 +23,10 @@
         <sonar.projectKey>${env.SONAR_PROJECT_KEY}</sonar.projectKey>
         <sonar.organization>${env.SONAR_ORGANIZATION}</sonar.organization>
         <sonar.host.url>${env.SONAR_HOST_URL}</sonar.host.url>
+        <sonar.exclusions>banco-frontend/**</sonar.exclusions>
+        <sonar.cpd.exclusions>**/dto/**,**/DTO/**,**/entity/**,**/mapper/**,banco-frontend/**</sonar.cpd.exclusions>
+        <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+        <sonar.coverage.exclusions>**/Banco2025Application.java,**/config/CorsConfig.java</sonar.coverage.exclusions>
     </properties>
 
     <dependencies>
