@@ -36,8 +36,8 @@ $ mvnw clean verify
 ### How to run it with Docker
 
 ```shell
-$ docker pull juangomez133/bancoudea:latest
-$ docker run -p 8080:8080 juangomez133/bancoudea:latest
+$ docker pull <DOCKER_USUARIO>/<DOCKER_REPOSITORIO>:latest
+$ docker run -p 8080:8080 <DOCKER_USUARIO>/<DOCKER_REPOSITORIO>:latest
 ```
 
 ### Endpoints
