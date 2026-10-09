@@ -1,0 +1,6 @@
+target/
+.git/
+.github/
+.idea/
+banco-frontend/
+HELP.md
